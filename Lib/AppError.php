@@ -23,7 +23,7 @@ class AppError {
         } else {
             // @todo: perform "default" error handling
         }
-        
+
 	}
 
 }
