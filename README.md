@@ -1,4 +1,4 @@
 newrelic-cakephp
 ================
 
-CakePHP Error Handling for CakePHP
+Custom CakePHP Error Handler for New Relic integration
