@@ -4,7 +4,8 @@
  * Class AppException
  */
 
-class AppException {
+class AppException
+{
 
     /**
      * handle exception

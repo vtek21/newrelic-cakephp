@@ -4,7 +4,8 @@
  * Class AppError
  */
 
-class AppError {
+class AppError
+{
 
     /**
      * handle error
@@ -23,7 +24,5 @@ class AppError {
         } else {
             // @todo: perform "default" error handling
         }
-
-	}
-
+    }
 }
