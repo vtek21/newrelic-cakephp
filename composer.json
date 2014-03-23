@@ -1,5 +1,5 @@
 {
-    "name": "ByHours-com/newrelic-cakephp",
+    "name": "byhours-com/newrelic-cakephp",
     "type": "cakephp-plugin",
     "description": "Error and Exception handler for New Relic",
     "keywords": [
