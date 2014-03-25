@@ -1,0 +1,22 @@
+{
+    "name": "byhours-com/newrelic-cakephp",
+    "type": "cakephp-plugin",
+    "description": "Error and Exception handler for New Relic",
+    "keywords": [
+        "error",
+        "exception",
+        "handler",
+        "new relic"
+    ],
+    "homepage": "https://github.com/ByHours-com/newrelic-cakephp",
+    "license": "MIT",
+    "support": [
+        {
+            "name": "ByHours-com",
+            "email": "it@byhours.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
