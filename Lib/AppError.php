@@ -18,6 +18,14 @@ class AppError
      */
     public static function handleError($code, $description, $file = null, $line = null, $context = null) {
         newrelic_notice_error($code);
+
+        return ErrorHandler::handleError(
+            $code,
+            $description,
+            $file,
+            $line,
+            $context
+        );
     }
 
     /**
@@ -27,5 +35,9 @@ class AppError
      */
     public static function handleException($error) {
         newrelic_notice_error($error->getMessage(), $error);
+
+        return ErrorHandler::handleException(
+            $error
+        );
     }
 }
